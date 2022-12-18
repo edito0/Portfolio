@@ -1,0 +1,69 @@
+/* font-family: 'Hind', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+:root {
+    --blue: #0F4C75;
+    --blueTransparent: #0f4c7575;
+    --blueLight: 3282B8;
+    --blueExtraLight: #BBE1FA;
+    --light: #ffffff;
+    --dark: #1B262C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.globalContainer {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+body {
+    /* background:linear-gradient(#1B262C,#141C20); */
+    background-color: #1B262C;
+    
+}
+
+.bg {
+    background: url('./blobs-02.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+
+.data {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .bg{
+        scroll-snap-align: none;
+    }
+    
+
+    .data {
+        scroll-snap-align: none;
+    }
+
+
+}
