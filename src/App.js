@@ -9,15 +9,15 @@ function App() {
 
   return (
     <>    
-      <BrowserRouter basename='/Portfolio'>
+      <BrowserRouter>
         <Routes>
-          <Route path='/Portfolio' element = {<Home/>}/>
+          <Route path='/' element = {<Home/>}/>
           <Route path='/contact' element = {<ContactMe/>}/>
         </Routes>
-        </BrowserRouter> 
+        </BrowserRouter>  
 
     </>
   );
 }
 
-export default App;
+export default App; 

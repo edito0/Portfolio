@@ -1,6 +1,5 @@
 {
   "name": "app",
-  "homepage" : "https://edito0.github.io/Portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
